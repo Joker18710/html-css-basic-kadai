@@ -1,0 +1,84 @@
+h1{
+  padding-bottom: 20px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+main{
+  padding: 10px;
+}
+div#parent{
+  display: flex;
+  justify-content: space-around;
+
+}
+.content{
+  border: solid 3px rgb(238, 204, 204);
+  flex-basis: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: center;
+}
+h1{
+  margin: 0;
+  color: rgb(255, 255, 255);
+
+}
+h2{
+  font-size: 25px;
+  border-bottom: dotted 3px rgb(236, 122, 122);
+}
+h2::before{
+  content: "●";
+  color: rgb(239, 111, 139);
+}
+
+.content p:nth-of-type(2)::first-letter{
+  font-weight: bold;
+  color: rgb(97, 206, 249);
+}
+
+footer{
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+ a:link{
+  color: rgb(255, 255, 255);
+  }
+ a:hover{
+  color: rgb(245, 178, 168);
+  }
+ a:visited{
+  color: rgb(193, 178, 168);
+ }
+p{
+  margin: 0;
+  font-size: 20px;
+}
+body{
+  margin: 0;
+}
+a{
+  font-size: 20px;
+}
+@media screen and (max-width: 768px){
+  div#parent{
+    display: block;
+  }
+  h2{
+    font-size: 30px;
+  }
+  p{
+    font-size: 25px;
+  }
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+
